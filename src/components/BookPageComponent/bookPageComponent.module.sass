@@ -1,0 +1,53 @@
+.bookPageComponent
+  display: flex
+  width: 100%
+  height: 80vh
+
+.bookPageComponent__picture
+  height: 100%
+  width: 40%
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #ded7cf
+
+.bookPageComponent__img
+  width: 50%
+  height: 75%
+
+.bookPageComponent__info
+  display: flex
+  flex-direction: column
+  width: 60vh
+  height: 60vh
+
+.bookPageComponent__info p
+  margin: 5px 20px
+
+.info__category
+  font-size: 14px
+
+.info__title
+  font-size: 18px
+  font-weight: 700
+
+.info__authors
+  font-size: 12px
+  color: darkgray
+
+.info__description
+  font-size: 16px
+  color: gray
+
+.bookPageComponent__quit
+  width: 40px
+  height: 40px
+  border-radius: 20px
+  margin-top: 5px
+
+@media (max-width: 1280px)
+  .bookPageComponent
+    flex-direction: column
+  .bookPageComponent__picture
+    width: 100%
+
